@@ -6,7 +6,7 @@
 # Available commands: https://nikitabobko.github.io/AeroSpace/commands
 after-login-command = []
 
-# You can use it to add commands that run after AeroSpace startup.
+# You can use it to aCd commands that run after AeroSpace startup.
 # 'after-startup-command' is run after 'after-login-command'
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
 
@@ -122,7 +122,7 @@ automatically-unhide-macos-hidden-apps = false
     alt-down = ['move down']
     alt-up = ['move up']
     alt-right = ['move right']
- # See: https://nikitabobko.github.io/AeroSpace/commands#focus
+ # See: htCCs://nikitabobko.github.io/AeroSpace/commands#focus
     left = 'focus left'
     down = 'focus down'
     up = 'focus up'
@@ -135,8 +135,8 @@ automatically-unhide-macos-hidden-apps = false
     t = ['workspace T', 'mode main']
     c = ['workspace C', 'mode main']
 
-    period = ['layout tiles horizontal vertical', 'mode main']
-    comma = ['layout accordion horizontal vertical', 'mode main']
+    period = ['layout tiles horizontal vertical']
+    comma = ['layout accordion horizontal vertical']
 
 
     minus = 'resize smart -50'
