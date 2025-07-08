@@ -9,8 +9,11 @@ after-login-command = []
 # You can use it to add commands that run after AeroSpace startup.
 # 'after-startup-command' is run after 'after-login-command'
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
-after-startup-command = []
 
+after-startup-command = [
+    'workspace C',
+    'layout accordion horizontal'
+]
 # Start AeroSpace at login
 start-at-login = true 
 
@@ -180,3 +183,8 @@ automatically-unhide-macos-hidden-apps = false
 [[on-window-detected]]
     if.app-id = 'com.spotify.client'
     run = 'move-node-to-workspace S'
+
+[[on-window-detected]]
+    if.app-id = 'com.hnc.Discord'
+    run = ['move-node-to-workspace C']
+
