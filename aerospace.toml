@@ -125,12 +125,12 @@ automatically-unhide-macos-hidden-apps = false
     up = 'focus up'
     right = 'focus right'
 
-    1 = 'workspace 1'
-    2 = 'workspace 2'
-    3 = 'workspace 3'
-    s = 'workspace S'
-    t = 'workspace T'
-    c = 'workspace C'
+    1 = ['workspace 1', 'mode main']
+    2 = ['workspace 2', 'mode main']
+    3 = ['workspace 3', 'mode main']
+    s = ['workspace S', 'mode main']
+    t = ['workspace T', 'mode main']
+    c = ['workspace C', 'mode main']
 
     period = ['layout tiles horizontal vertical', 'mode main']
     comma = ['layout accordion horizontal vertical', 'mode main']
