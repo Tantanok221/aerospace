@@ -134,6 +134,7 @@ automatically-unhide-macos-hidden-apps = false
     s = ['workspace S', 'mode main']
     t = ['workspace T', 'mode main']
     c = ['workspace C', 'mode main']
+    w = ['workspace W', 'mode main']
 
     period = ['layout tiles horizontal vertical']
     comma = ['layout accordion horizontal vertical']
@@ -148,6 +149,7 @@ automatically-unhide-macos-hidden-apps = false
     alt-s = 'move-node-to-workspace S'
     alt-t = 'move-node-to-workspace T'
     alt-c = 'move-node-to-workspace C'
+    alt-w = 'move-node-to-workspace W'
 
 
 
@@ -188,3 +190,16 @@ automatically-unhide-macos-hidden-apps = false
     if.app-id = 'com.hnc.Discord'
     run = ['move-node-to-workspace C']
 
+[[on-window-detected]]
+    if.app-id = 'com.tinyspeck.slackmacgap'
+    run = ['move-node-to-workspace C']
+
+
+[[on-window-detected]]
+    if.app-id = 'com;google.Chrome'
+    run = ['move-node-to-workspace W']
+
+
+[[on-window-detected]]
+    if.app-id = 'company.thebrowser.Browser'
+    run = ['move-node-to-workspace W']
